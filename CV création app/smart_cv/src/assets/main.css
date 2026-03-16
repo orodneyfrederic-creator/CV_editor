@@ -1,0 +1,29 @@
+/* Importation de Bootstrap */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Styles pour le Dashboard */
+body {
+  margin: 0;
+  background-color: #1a1d21; /* Fond sombre pour le workspace */
+  color: white;
+}
+
+/* La zone de prévisualisation du CV */
+.cv-preview-area {
+  background-color: #343a40;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/* La feuille A4 */
+.cv-sheet {
+  background: white;
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20mm;
+  color: #333;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
